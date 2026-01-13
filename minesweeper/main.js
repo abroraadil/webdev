@@ -1,3 +1,3 @@
 function printworks() {
-    print("wowie");
+    document.getElementById("idktest").innerHTML = "wowie"
 }
