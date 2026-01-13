@@ -1,0 +1,3 @@
+function printworks() {
+    print("wowie");
+}
