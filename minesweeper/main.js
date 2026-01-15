@@ -1,3 +1,3 @@
 function printworks() {
-    document.getElementById("idktest").innerHTML = "wowie"
+    document.getElementById("idktest").innerHTML = "wowwie";
 }
