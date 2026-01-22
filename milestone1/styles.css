@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    color: rgb(255, 243, 220);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: black;
+
+}
+
+p {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+nav {
+    font-size: large;
+    color: black;
+    background-color: rgb(255, 243, 220);
+    margin: auto;
+}
