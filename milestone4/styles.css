@@ -5,32 +5,58 @@ body {
 #wrapper {
     display: grid;
     grid-template-columns: minmax(0px, 12.5vw) repeat(6, minmax(0, 12.5vw)) minmax(0px, 12.5vw);
-    grid-template-rows: repeat(21, minmax(0px, 10vh));
+
 }
 
 header {
     background-color: #000807;
     grid-column: 1 / 10;
-    grid-row: 1;
-    display: flex;
-    flex-direction: row-reverse;
 
-    ul {
+	height: 10vh;
+	position: sticky;
+
+    #headerbox {
         display: flex;
         flex-direction: row-reverse;
 
-        a {
-            color: #FBF9FF;
-            font-family: "IBM Plex Serif", serif;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            padding: 1rem 0rem;
-            display: block;
-            text-align: center;
-            width: 100%;
-
-        }
+			nav {
+				display: flex;
+				flex-direction: row-reverse;
+				text-align: center;
+				vertical-align: center;
+				width: 70%;
+				margin-left: auto;
+				margin-right: auto;
+				
+				a {
+				color: #FBF9FF;
+				font-family: "IBM Plex Serif", serif;
+				font-weight: 700;
+				font-size: 1.5em;
+				font-style: normal;
+				text-decoration: none;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 3vh;
+				margin-bottom: 3vh;
+				}
+			}
+			
+			#headerimage {
+				vertical-align: center;
+				width: 30%;
+				margin-left: 1%;
+				margin-right: 30%;	
+				margin-top: 1vh;
+				margin-bottom: 3vh;
+				img {
+					height: 12vh;
+				}
+			}
+				
+			}
+        
     }
 
 }
@@ -41,7 +67,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row: 2;
     grid-column: 1 / 10;
 
     #worktext {}
@@ -50,25 +75,21 @@ header {
 #projectspreview {
     background-color: rgba(237, 14, 14, 0.5);
     grid-column: 1 / 10;
-    grid-row: 10 / 13;
 }
 
 #mepreview {
     background-color: rgba(14, 237, 17, 0.5);
     grid-column: 1 / 10;
-    grid-row: 13 / 16;
 }
 
 #contactpreview {
     background-color: rgba(237, 14, 193, 0.5);
     grid-column: 1 / 10;
-    grid-row: 16 / 19;
 }
 
 footer {
     background-color: rgba(237, 188, 14, 0.5);
     grid-column: 1 / 10;
-    grid-row: 19 / 22;
 }
 
 .ibm-plex-serif-light {
