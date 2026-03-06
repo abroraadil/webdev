@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 12.5vw) repeat(6, minmax(0, 12.5vw)) minmax(0px, 12.5vw);
+    grid-template-rows: repeat(21, minmax(0px, 11vh));
+}
+
+header {
+    background-color: rgba(17, 14, 236, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 1 / 2;
+}
+
+#workpreview {
+    background-color: rgba(212, 237, 14, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 2 / 10;
+}
+
+#projectspreview {
+    background-color: rgba(237, 14, 14, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 10 / 13;
+}
+
+#mepreview {
+    background-color: rgba(14, 237, 17, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 13 / 16;
+}
+
+#contactpreview {
+    background-color: rgba(237, 14, 193, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 16 / 19;
+}
+
+footer {
+    background-color: rgba(237, 188, 14, 0.5);
+    grid-column: 1 / 10;
+    grid-row: 19 / 22;
+}
+
+#marginbox {
+    background-color: rgba(0, 125, 4, 0.5);
+    grid-column: 2 / 8;
+    grid-row: 1 / 22;
+}
