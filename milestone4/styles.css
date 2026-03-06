@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: #000807;
 }
 
 #wrapper {
@@ -90,7 +90,7 @@ header {
 			color: #FBF9FF;
 			font-family: "IBM Plex Serif", serif;
 			font-weight: 700;
-			font-size: 2em;
+			font-size: 1.5em;
 			margin-left: 10%;
 			margin-top: auto;
 			margin-bottom: auto;
@@ -99,7 +99,7 @@ header {
 }
 
 #projectspreview {
-    background-color: rgba(237, 14, 14, 0.5);
+    background-color: #9395d3;
     grid-column: 1 / 10;
 }
 
