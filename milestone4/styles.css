@@ -101,11 +101,65 @@ header {
 #projectspreview {
     background-color: #9395d3;
     grid-column: 1 / 10;
+	display: flex;
+	flex-direction: row;
+	color: #FBF9FF;
+	font-family: "IBM Plex Serif", serif;
+	padding: 1em;
+	overflow-x: scroll;
+	scrollbar-color: #000807 #9395d3;
+	cursor: grab;
+	user-select: none;
+
+	
+	.project {
+		background-color: #000807;
+		width: 40vw;
+		height:30vh;
+		display: flex;
+		flex-direction: row;
+		padding: 0.5em;
+		padding-left: 1em;
+		border-radius: 25px;
+		margin-right: 1em;
+		flex-shrink: 0;
+		p {
+		font-size: 0.7em;
+		font-weight: 400;
+		}
+		img{
+			border-radius: 25px;
+		}
+		
+	}
 }
 
 #mepreview {
-    background-color: rgba(14, 237, 17, 0.5);
+    background-color: #FBF9FF;
     grid-column: 1 / 10;
+	display: flex;
+	flex-direction: row-reverse;
+	font-family: "IBM Plex Serif", serif;
+	h1{
+		font-size: 2em;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.3em;
+		font-weight: 400;
+		}
+	#mepreviewtext {
+		margin-right: 1em;
+		text-align: right;
+		width: 60%;
+	}
+	#mepreviewimage {
+		margin-left: 1em;
+		margin-right: auto;
+		border-color: #FBF9FF;
+		border-width: 0.1em;
+		
+	}
 }
 
 #contactpreview {
