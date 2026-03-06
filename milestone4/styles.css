@@ -8,12 +8,16 @@ body {
 
 }
 
+a {
+	text-decoration: none;
+}
+
+
 header {
     background-color: #000807;
     grid-column: 1 / 10;
 
 	height: 10vh;
-	position: sticky;
 
     #headerbox {
         display: flex;
@@ -55,7 +59,7 @@ header {
 				}
 			}
 				
-			}
+			
         
     }
 
@@ -68,8 +72,30 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     grid-column: 1 / 10;
+	display: flex;
+	align-items: flex-end;
 
-    #worktext {}
+}
+
+#worktextbox {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+			
+		a {
+			color: #FBF9FF;
+			font-family: "IBM Plex Serif", serif;
+			font-weight: 700;
+			font-size: 2em;
+			margin-left: 10%;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
 }
 
 #projectspreview {
