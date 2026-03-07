@@ -1,4 +1,5 @@
 const slider = document.getElementById('projectspreview');
+let backtotopbutton = document.getElementById("backtotopbutton");
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -28,3 +29,19 @@ slider.addEventListener('mousemove', (e) => {
     const walk = (x - startX);
     slider.scrollLeft = scrollLeft - walk;
 });
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backtotopbutton.style.display = "block";
+  } else {
+    backtotopbutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+} 
