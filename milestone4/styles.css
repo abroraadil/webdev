@@ -1,5 +1,6 @@
 body {
     background-color: #000807;
+    font-family: "IBM Plex Serif", serif;
 }
 
 #wrapper {
@@ -34,16 +35,18 @@ header {
 				
 				a {
 				color: #FBF9FF;
-				font-family: "IBM Plex Serif", serif;
 				font-weight: 700;
 				font-size: 1.5em;
 				font-style: normal;
-				text-decoration: none;
+
 				width: 50%;
 				margin-left: auto;
 				margin-right: auto;
 				margin-top: 3vh;
 				margin-bottom: 3vh;
+				}
+				a:hover {
+				text-decoration: underline;					
 				}
 			}
 			
@@ -56,10 +59,9 @@ header {
 				margin-bottom: 3vh;
 				img {
 					height: 12vh;
+					z-index: 2;
 				}
 			}
-				
-			
         
     }
 
@@ -74,7 +76,7 @@ header {
     grid-column: 1 / 10;
 	display: flex;
 	align-items: flex-end;
-
+	z-index: -1;
 }
 
 #worktextbox {
@@ -88,7 +90,6 @@ header {
 			
 		a {
 			color: #FBF9FF;
-			font-family: "IBM Plex Serif", serif;
 			font-weight: 700;
 			font-size: 1.5em;
 			margin-left: 10%;
@@ -104,7 +105,6 @@ header {
 	display: flex;
 	flex-direction: row;
 	color: #FBF9FF;
-	font-family: "IBM Plex Serif", serif;
 	padding: 1em;
 	overflow-x: scroll;
 	scrollbar-color: #000807 #9395d3;
@@ -139,7 +139,6 @@ header {
     grid-column: 1 / 10;
 	display: flex;
 	flex-direction: row-reverse;
-	font-family: "IBM Plex Serif", serif;
 	h1{
 		font-size: 2em;
 		font-weight: 700;
@@ -154,17 +153,55 @@ header {
 		width: 60%;
 	}
 	#mepreviewimage {
+		margin-top: 1em;
+		margin-bottom: 1em;
 		margin-left: 1em;
 		margin-right: auto;
-		border-color: #FBF9FF;
-		border-width: 0.1em;
+		img {
+			border-style: solid;
+			border-color: #000807;
+			border-width: 0.2em;	
+			border-radius: 25px;
+		}
+		
 		
 	}
 }
-
 #contactpreview {
-    background-color: rgba(237, 14, 193, 0.5);
+    background-color: #9395d3;
     grid-column: 1 / 10;
+	
+	#contactflexbox {
+		display: flex;
+		flex-direction: row;
+		
+	}
+	h1{
+		font-size: 2em;
+		font-weight: 700;
+		margin-left: 1em;
+	}
+	.contactbox {
+		height: 4em;
+		background-color: #9395d3;
+		margin-right: auto;
+		margin-left: auto;
+		width: 25%;
+		text-align: center;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.contactbox:hover{
+		background-color: #000807;
+	}
+	
+	a {
+		color: #FBF9FF;
+		font-size: 2em;
+		font-weight: 400;
+	}
 }
 
 footer {
