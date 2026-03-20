@@ -3,9 +3,9 @@ body {
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     background-attachment: fixed;
-    padding-left: 2rem;
-    padding-right: 2rem;
     margin: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
 
 }
 
@@ -13,6 +13,7 @@ header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, serif;
+    grid-row: 1/2;
 
 }
 
@@ -26,6 +27,7 @@ header {
     background-origin: content-box;
     margin: 0;
     grid-column: 2 / 8;
+    z-index: 4;
 }
 
 header a {
@@ -69,6 +71,7 @@ nav {
     top: 0;
     grid-row: 2 / 3;
     grid-column: 2 / 8;
+    z-index: 2;
 }
 
 nav ul {
@@ -100,6 +103,8 @@ main {
     grid-row: 4 / 5;
     grid-column: 2 / 8;
     background-color: #ffffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 main img {
@@ -155,11 +160,13 @@ main img {
     background-color: #003058;
     grid-row: 1 / 2;
     grid-column: 1 / 9;
+    z-index: 3
 }
 #graybar {
     background-color: #424242;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     grid-column: 1 / 9;
+    z-index: 1
 }
 
 @media only screen and (max-width: 1100px){
@@ -174,10 +181,11 @@ main img {
         grid-column: 1 / 5;
         position: static;
 
-        ul {
+        
+    }
+    nav ul {
             flex-flow: column-nowrap;
         }
-    }
 
     #facultyhero {
         grid-row: 2/3;
