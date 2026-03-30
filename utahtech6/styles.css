@@ -190,7 +190,8 @@ form {
 }
 
 form input,
-form text {
+form text,
+form textarea {
     font-size: 1rem;
     padding: 10px;
     color: 666666;
@@ -290,6 +291,7 @@ label {
     #studentshero {
         display: none;
     }
+
     #alumnihero {
         display: none;
     }
