@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\students.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech5\\students.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech9\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech5\\styles.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\shop.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech9\\shop.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech5\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\faculty.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech5\\faculty.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:utahtech9\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "faculty.html",
-              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\faculty.html",
-              "RelativeDocumentMoniker": "utahtech5\\faculty.html",
-              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\faculty.html",
-              "RelativeToolTip": "utahtech5\\faculty.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "shop.html",
+              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\shop.html",
+              "RelativeDocumentMoniker": "utahtech9\\shop.html",
+              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\shop.html",
+              "RelativeToolTip": "utahtech9\\shop.html",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-18T16:41:19.488Z",
+              "WhenOpened": "2026-04-18T18:05:37.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\index.html",
-              "RelativeDocumentMoniker": "utahtech5\\index.html",
-              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\index.html",
-              "RelativeToolTip": "utahtech5\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBQAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\index.html",
+              "RelativeDocumentMoniker": "utahtech9\\index.html",
+              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\index.html",
+              "RelativeToolTip": "utahtech9\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-18T16:41:15.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\styles.css",
-              "RelativeDocumentMoniker": "utahtech5\\styles.css",
-              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\styles.css",
-              "RelativeToolTip": "utahtech5\\styles.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-18T16:40:03.977Z",
+              "WhenOpened": "2026-04-18T18:04:06.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "students.html",
-              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\students.html",
-              "RelativeDocumentMoniker": "utahtech5\\students.html",
-              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech5\\students.html",
-              "RelativeToolTip": "utahtech5\\students.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-18T16:40:00.971Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\styles.css",
+              "RelativeDocumentMoniker": "utahtech9\\styles.css",
+              "ToolTip": "C:\\Users\\imagi\\OneDrive\\Documents\\webdev\\utahtech9\\styles.css",
+              "RelativeToolTip": "utahtech9\\styles.css",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAYwBUBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-18T18:04:09.592Z",
               "EditorCaption": ""
             }
           ]
