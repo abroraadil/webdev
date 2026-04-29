@@ -1,0 +1,191 @@
+#work1hero {
+	grid-column: 1 / 10;
+	background-image: url(images/saintgeroge.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FBF9FF;
+	padding: 6em 10%;
+	border-bottom: 2px solid #9395d3;
+
+}
+
+#work1hero h1 {
+	font-size: 3.5em;
+	font-weight: 700;
+	margin: 0 0 0.3em 0;
+}
+
+#work1hero p {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #9395d3;
+	margin: 0;
+
+
+}
+
+
+#work1overview {
+	grid-column: 1 / 10;
+	background-color: #FBF9FF;
+	color: #000807;
+	padding: 4em 10%;
+	display: flex;
+	flex-direction: row;
+	gap: 4em;
+}
+
+#work1overview .overviewleft {
+	flex: 1;
+}
+
+#work1overview .overviewright {
+	flex: 2;
+}
+
+#work1overview h2 {
+	font-size: 1.8em;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+#work1overview p {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.8;
+}
+
+.work1meta {
+	margin-bottom: 1.5em;
+}
+
+.work1meta span {
+	display: block;
+	font-size: 0.85em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #9395d3;
+	margin-bottom: 0.2em;
+}
+
+.work1meta p {
+	margin: 0;
+	font-size: 1em;
+}
+
+#work1process {
+	grid-column: 1 / 10;
+	background-color: #9395d3;
+	color: #FBF9FF;
+	padding: 4em 10%;
+}
+
+#work1process h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.processsteps {
+	display: flex;
+	flex-direction: row;
+	gap: 2em;
+}
+
+.processstep {
+	flex: 1;
+	background-color: #000807;
+	border-radius: 20px;
+	padding: 1.5em;
+}
+
+.processstep h3 {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-top: 0;
+	color: #9395d3;
+}
+
+.processstep p {
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 1.7;
+	margin: 0;
+}
+
+#work1gallery {
+	grid-column: 1 / 10;
+	background-color: #000807;
+	color: #FBF9FF;
+	padding: 4em 10%;
+}
+
+#work1gallery h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.galleryrow {
+	display: flex;
+	flex-direction: row;
+}
+
+.galleryimage {
+	flex: 1;
+	height: 250px;
+	border-radius: 20px;
+	margin-right: auto;
+	margin-left: auto;
+
+	img {
+		border-radius: 20px;
+		height: 250px;
+		width: 250px;
+	}
+}
+
+#work1closing {
+	grid-column: 1 / 10;
+	background-color: #FBF9FF;
+	color: #000807;
+	padding: 4em 10%;
+}
+
+#work1closing h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+#work1closing p {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.8;
+	max-width: 700px;
+}
+
+@media only screen and (max-width: 992px) {
+	#work1hero h1 {
+		font-size: 2.2em;
+	}
+
+	#work1overview {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.processsteps {
+		flex-direction: column;
+	}
+
+	.galleryrow {
+		flex-direction: column;
+	}
+
+	.galleryplaceholder {
+		height: 180px;
+	}
+}

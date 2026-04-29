@@ -115,7 +115,7 @@ header {
 }
 
 #workpreview {
-	background-image: url(images/nero.jpg);
+	background-image: url(images/saintgeroge.avif);
 	height: 90vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -123,7 +123,6 @@ header {
 	grid-column: 1 / 10;
 	display: flex;
 	align-items: flex-end;
-	z-index: -1;
 }
 
 #worktextbox {
@@ -162,7 +161,7 @@ header {
 	.project {
 		background-color: #000807;
 		width: 600px;
-		height: 300px;
+		height: 250px;
 		display: flex;
 		flex-direction: row;
 		padding: 0.5em;
@@ -176,10 +175,14 @@ header {
 			font-weight: 400;
 		}
 
+		#projectimage {
+			display: flex;
+			align-items: center;
+		}
+
 		img {
 			border-radius: 25px;
 			width: 250px;
-
 		}
 
 	}
@@ -295,6 +298,8 @@ footer {
 		text-decoration: underline;
 	}
 }
+
+
 
 .ibm-plex-serif-light {
 	font-family: "IBM Plex Serif", serif;
