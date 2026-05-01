@@ -1,0 +1,89 @@
+#projectshero {
+	grid-column: 1 / 10;
+	background-image: url('images/starscape.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #FBF9FF;
+	padding: 5em 10%;
+	border-bottom: 2px solid #9395d3;
+}
+
+#projectshero h1 {
+	font-size: 4em;
+	font-weight: 700;
+	margin: 0 0 0.2em 0;
+}
+
+#projectshero p {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
+}
+
+.projectssectionlabel {
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	color: #9395d3;
+	margin: 0 0 1.5em 0;
+}
+
+#projectslist {
+	grid-column: 1 / 10;
+	background-color: #000807;
+	color: #FBF9FF;
+	padding: 4em 10%;
+}
+
+#projectsgrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.5em;
+}
+
+.projectcard {
+	background-color: #0d1a19;
+	border: 1px solid #9395d3;
+	border-radius: 16px;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	transition: background-color 0.15s;
+}
+
+.projectcard:hover {
+	background-color: #161f1e;
+}
+
+.projectcardtag {
+	font-size: 0.75em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	color: #9395d3;
+	margin: 0;
+}
+
+.projectcard h2 {
+	font-size: 1.4em;
+	font-weight: 700;
+	margin: 0;
+}
+
+.projectcarddesc {
+	font-size: 0.95em;
+	font-weight: 300;
+	color: #c8c9e8;
+	line-height: 1.6;
+	margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+	#projectshero h1 {
+		font-size: 2.5em;
+	}
+
+	#projectsgrid {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,81 @@
+#contacthero {
+	grid-column: 1 / 10;
+	background-image: url('images/starscape.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #FBF9FF;
+	padding: 5em 10%;
+	border-bottom: 2px solid #9395d3;
+}
+
+#contacthero h1 {
+	font-size: 4em;
+	font-weight: 700;
+	margin: 0 0 0.2em 0;
+}
+
+#contacthero p {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
+}
+
+#contactlinks {
+	grid-column: 1 / 10;
+	background-color: #000807;
+	color: #FBF9FF;
+	padding: 4em 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contactlink {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 3em;
+	padding: 1.8em 0;
+	border-bottom: 1px solid #1e2e2d;
+}
+
+.contactlink:first-child {
+	border-top: 1px solid #1e2e2d;
+}
+
+.contactlinklabel {
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	color: #9395d3;
+	margin: 0;
+	width: 120px;
+	flex-shrink: 0;
+}
+
+.contactlink a {
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #FBF9FF;
+	text-decoration: none;
+	transition: color 0.15s;
+}
+
+.contactlink a:hover {
+	color: #9395d3;
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+	#contacthero h1 {
+		font-size: 2.5em;
+	}
+
+	.contactlink {
+		flex-direction: column;
+		gap: 0.4em;
+	}
+
+	.contactlink a {
+		font-size: 1.3em;
+	}
+}

@@ -1,0 +1,162 @@
+#mehero {
+	grid-column: 1 / 10;
+	background-image: url('images/starscape.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #FBF9FF;
+	padding: 5em 10%;
+	border-bottom: 2px solid #9395d3;
+}
+
+#mehero h1 {
+	font-size: 4em;
+	font-weight: 700;
+	margin: 0 0 0.2em 0;
+}
+
+#mehero p {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
+}
+
+.mesectionlabel {
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	color: #9395d3;
+	margin: 0 0 0.8em 0;
+}
+
+#medescription {
+	grid-column: 1 / 10;
+	background-color: #FBF9FF;
+	color: #000807;
+	padding: 4em 10%;
+	display: flex;
+	flex-direction: row;
+	gap: 4em;
+	align-items: flex-start;
+}
+
+#medescriptiontext {
+	flex: 2;
+}
+
+#medescriptiontext h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0 0 0.6em 0;
+}
+
+#medescriptiontext p {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.8;
+	margin: 0;
+}
+
+#medescriptionimage {
+	flex: 1;
+}
+
+#medescriptionimage img {
+	width: 100%;
+	border-radius: 16px;
+	border: 2px solid #000807;
+	display: block;
+}
+
+#meresume {
+	grid-column: 1 / 10;
+	background-color: #9395d3;
+	color: #FBF9FF;
+	padding: 4em 10%;
+}
+
+#meresume h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0 0 0.4em 0;
+}
+
+#meresume p {
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0 0 2em 0;
+	line-height: 1.6;
+}
+
+#resumedownloadbutton {
+	display: inline-block;
+	background-color: #000807;
+	color: #FBF9FF;
+	font-family: "IBM Plex Serif", serif;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	padding: 0.8em 2em;
+	border-radius: 8px;
+	text-decoration: none;
+	transition: background-color 0.15s;
+}
+
+#resumedownloadbutton:hover {
+	background-color: #161f1e;
+}
+
+#megallery {
+	grid-column: 1 / 10;
+	background-color: #000807;
+	color: #FBF9FF;
+	padding: 4em 10%;
+}
+
+#megallery h2 {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0 0 1em 0;
+}
+
+#megalleryrow {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1em;
+}
+
+.megalleryimage {
+	aspect-ratio: 1 / 1;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.megalleryimage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.3s;
+}
+
+.megalleryimage:hover img {
+	transform: scale(1.04);
+}
+
+@media only screen and (max-width: 992px) {
+	#mehero h1 {
+		font-size: 2.5em;
+	}
+
+	#medescription {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	#medescriptionimage {
+		display: none;
+	}
+
+	#megalleryrow {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
