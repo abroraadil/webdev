@@ -1,6 +1,8 @@
 #workhero {
 	grid-column: 1 / 10;
-	background-color: #000807;
+	background-image: url('images/starscape.jpg');
+	background-size: cover;
+	background-position: center;
 	color: #FBF9FF;
 	padding: 5em 10%;
 	border-bottom: 2px solid #9395d3;
@@ -14,8 +16,7 @@
 
 #workhero p {
 	font-size: 1.2em;
-	font-weight: 300;
-	color: #9395d3;
+	font-weight: 400;
 	margin: 0;
 }
 

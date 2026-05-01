@@ -18,7 +18,10 @@ a {
 header {
 	background-color: #000807;
 	grid-column: 1 / 10;
-
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	overflow: visible;
 	height: 10vh;
 
 	#headerbox {
@@ -62,6 +65,7 @@ header {
 
 			img {
 				height: 12vh;
+				position: relative;
 				z-index: 2;
 			}
 		}
